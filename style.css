@@ -1,5 +1,4 @@
-header{
-    background-color: blue;
+header{;
   text-align: center;
   min-width: 500px;
   color: white;
@@ -26,7 +25,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: blue;
+  color: white;
   padding: 10px 0px 10px 10px;
 }
 h1 {
@@ -44,7 +43,7 @@ img {
 }
 
 .recipe {
-  box-shadow: 1 1px 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 1 1px 1px 0 white;
   width: 450px;
 }
 
@@ -62,29 +61,16 @@ img {
   width: 20px;
   height: auto;
 }
-
-.mins {
-  display: inline-block;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
-}
-
 .description {
   font-family: Work Sans;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: white;
   padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  border-top: 1px solid white;
 }
 
 .logo {
@@ -97,4 +83,27 @@ img {
 .container {
   min-width: 500px;
   margin: auto;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRM4qZBXuL349rzV6ngQXiKus4fsDhyHlnT-nfgDMHAE0kVnISY&usqp=CAU")
+}
+a.project-links:link
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.project-links:visited
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.project-links:hover
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.project-links:active
+{
+   color: #ffffff;
+   text-decoration: none;
 }
