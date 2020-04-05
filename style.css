@@ -10,7 +10,7 @@ main {
   display: grid;
   grid-template-columns: 250px 250px;
   grid-template-rows: repeat(2, 450px);
-  grid-gap: 100px 500px;
+  grid-gap: 150px 500px;
   margin-top: 44px;
   justify-items: left;
   justify-content: left;
